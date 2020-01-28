@@ -39,7 +39,8 @@ while($row = mysqli_fetch_array($select_user_query)){
     $db_user_lastname = $row['lastname'];
     }
 //password verify is a function used to match a password to a hash
-if (password_verify($_POST["password"], $db_password)) {  
+//if (password_verify($_POST["password"], $db_password)) {
+if ($_POST["password"], $db_password) {
     
     $_SESSION['username'] = $db_username;
     $_SESSION['first_name'] = $db_user_firstname;
