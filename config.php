@@ -1,9 +1,9 @@
 <?php 
 //create database connection info in an array
-$db['db_host'] = "localhost";
-$db['db_user'] = "root";
-$db['db_pass'] = "root";
-$db['db_db'] = "armitage_tables";
+$db['db_host'] = "127.0.0.1:50642";
+$db['db_user'] = "azure";
+$db['db_pass'] = "6#vWHD_$";
+$db['db_db'] = "localdb";
 $db['db_port'] = "8889";
 
 //for each key convert to uppercase and create a constant
